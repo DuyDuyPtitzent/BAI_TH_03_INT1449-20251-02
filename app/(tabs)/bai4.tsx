@@ -9,20 +9,20 @@ export default function Bai4Screen() {
     <View style={styles.container}>
       <ThemedView style={styles.card}>
         <Image
-          source={require('@/assets/images/react-logo.png')}
+          source={require('@/assets/images/CSGT.jpg')}
           style={styles.avatar}
         />
         <ThemedText type="title" style={styles.name}>
-          Nguyễn Văn A
+          Nguyễn Minh Quân 
         </ThemedText>
         <ThemedText type="defaultSemiBold" style={styles.job}>
-          Lập trình viên React Native
+          Công an Nhân dân 
         </ThemedText>
         <ThemedText type="default" style={styles.contact}>
-          nguyenvana@example.com
+          nguyenminhquan@gmail.com
         </ThemedText>
         <ThemedText type="default" style={styles.contact}>
-          0901234567
+          0385062005
         </ThemedText>
       </ThemedView>
     </View>
@@ -69,18 +69,22 @@ const styles = StyleSheet.create({
     fontSize: 24,
     marginBottom: 10,
     textAlign: 'center',
+    fontWeight: 'bold',
+    color: '#0000000',
   },
   job: {
     fontSize: 16,
     marginBottom: 15,
     textAlign: 'center',
-    opacity: 0.7,
+    fontWeight: 'bold',
+    color: '#1a1a1a',
   },
   contact: {
     fontSize: 14,
     marginBottom: 8,
     textAlign: 'center',
-    opacity: 0.6,
+    fontWeight: 'bold',
+    color: '#2a2a2a',
   },
 });
 
